@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-production" type="string">pgWoWDk4AyKClDn5cVTr5VKDb98XOs7C</property>
+    <property name="acs-oauth-key-production" type="string">dYJuJNgzvBcGoG4ActrpVtz6puh5bHsq</property>
+    <property name="acs-api-key-production" type="string">q7U74HFqzQoiH1Sdg0st7FavirjOGQiA</property>
+    <property name="acs-oauth-secret-development" type="string">b8MnZmX4v6WjXjz0zrUwERGuWcX37IAg</property>
+    <property name="acs-oauth-key-development" type="string">kkg0QxvkbvbtKIoYJJt5Ssg6n9lUVtT7</property>
+    <property name="acs-api-key-development" type="string">XH0RWSjpcokO6yIths2QLP0nt0rJTfLQ</property>
+    <id>com.mapextensions.app</id>
+    <name>MapExtensions</name>
+    <version>1.0</version>
+    <publisher>aleard</publisher>
+    <url>http://</url>
+    <description>not specified</description>
+    <copyright>2013 by aleard</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>55604340-6fcf-4623-95e0-f01557c7870b</guid>
+    <property name="ti.ui.defaultunit" type="string">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs">ti.cloud</module>
+    </modules>
+    <deployment-targets>
+        <target device="blackberry">false</target>
+        <target device="android">true</target>
+        <target device="ipad">true</target>
+        <target device="iphone">true</target>
+        <target device="mobileweb">true</target>
+    </deployment-targets>
+    <sdk-version>3.0.0.GA</sdk-version>
+</ti:app>
